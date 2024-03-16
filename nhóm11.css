@@ -39,9 +39,9 @@ header nav ul li:hover{
 }
 i{
     background-color: red;
-    width: 40px;
+    width: 39px;
     height: 29px;
-    border-radius: 10px;
+    border-bottom: solid red;
 }
 header button{
     border: 0;
@@ -51,3 +51,20 @@ header button{
     color: #fff;
     cursor: pointer;
 }
+.anh{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 20%;
+
+}
+.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10{
+    width: 150px;
+    height: 200px;
+    border: 1px solid whitesmoke;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    background-image: url(a.jpg);
+}
+img{display: block;}
+
