@@ -8,9 +8,17 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 10% ;
+    background-color: black;
 }
 body{
-    background-color: black;
+    background-color: white;
+}
+.anhtroi{
+    margin-left: 10%;
+    margin-right: 5%;
+    height: 500px;
+    border: none;
+    color: #fff;
 }
 header nav ul li{
     list-style: none;
@@ -52,19 +60,89 @@ header button{
     cursor: pointer;
 }
 .anh{
-    margin-right: 10%;
+    margin-right: 5%;
     margin-left: 10%;
     margin-top: 20%;
-
+}
+article{
+    float: left;
+    width: 75%;
+    background-color: #fff;
+    border: none;
 }
 .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10,.d11,.d12{
-    width: 150px;
-    height: 200px;
+    width: 240px;
+    height: 310px;
     border: 1px solid whitesmoke;
+    background-color: whitesmoke;
     float: left;
     margin-left: 5%;
     margin-bottom: 30px;
-    background-image: url(a.jpg);
+    margin-top: 30px;
 }
-img{display: block;}
+.giathue{
+    font-weight: 100;
+    text-align: center;
+}
+aside{
+    float: right;
+    width: 20%;
+    background-color: #fff;
+    margin-right: 3%;
+    padding-bottom: 100px;
+}
+.d13{
+    width: 260px;
+    height: 60%px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 100;
 
+}
+.d13 h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+
+footer{
+    background-color: black;
+    height: 500px;
+    color: white;
+    clear: both;
+}
+.footer1{
+    border: none;
+    width: 20%;
+    height: 300px;
+    float: left;
+    margin-left: 10%;
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+}
+.footer1 ul li{
+    margin-top: 50px;
+}
+.footer2{
+    border: none;
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 50px;
+    font-weight: 100;
+    font-size: 15px;
+}
+.footer3{
+    border: none;
+    float: left;
+    width: 20%;
+    font-weight: 100;
+    font-size: 10px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.footer3 ul li{
+    margin-top: 60px;
+}
