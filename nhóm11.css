@@ -11,15 +11,23 @@ header{
     background-color: black;
 }
 body{
-    background-color: white;
+    background-color: #9e99994b;
 }
 .anhtroi{
-    margin-left: 10%;
-    margin-right: 5%;
-    height: 500px;
-    border: none;
-    color: #fff;
+    margin: 100px auto;
+    width: 65%;
     
+}
+.anha{
+    max-width: 320px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.anhtroi h2{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.509);
 }
 header nav ul li{
     list-style: none;
@@ -36,7 +44,6 @@ header nav ul li:hover{
     width: 450px;
     height: 30px;
     background-color: none;
-    /* border: 1px solid red; */
     border-radius: 10px;
     font-size: 17px;
 }
@@ -68,12 +75,12 @@ header button{
 article{
     float: left;
     width: 75%;
-    background-color: #fff;
     border: none;
 }
 .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10,.d11,.d12{
     width: 240px;
-    height: 310px;
+    height: 330px;
+    border-radius: 10px;
     border: 1px solid whitesmoke;
     background-color: whitesmoke;
     float: left;
@@ -81,31 +88,70 @@ article{
     margin-bottom: 30px;
     margin-top: 30px;
 }
+.hinh{
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.menu_anh:hover .thuengay{
+    display: block;
+}
+.thuengay{
+    text-align: center;
+    background-color: rgb(80, 92, 159);
+    padding: 6px ;
+    width: 230px;
+    border-radius: 5px ;
+    margin-left: 5px;
+    list-style: none;
+    display: none;
+}
+.d2b{
+    display: inline;
+    list-style: none;
+}
+.xem{
+    text-decoration: none;
+    color: #fff;
+}
 .giathue{
     font-weight: 100;
     text-align: center;
 }
+
+
+
 aside{
+    margin-top: 30px;
     float: right;
     width: 20%;
-    background-color: #fff;
     margin-right: 3%;
 }
 .d13{
     width: 260px;
-    height: 60%px;
-    border: 1px solid black;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.304);
     text-align: center;
     font-weight: 100;
-
+    background-color: #fff;
 }
 .d13 h1{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     font-weight: 100;
 }
-
-
+.d14{
+    width: 260px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.304);
+    background-color: #fff;
+    margin-top: 30px;
+}
+.d14 a{
+    text-decoration: none;
+    color: black;
+}
 footer{
     background-color: black;
     height: 500px;
