@@ -207,6 +207,9 @@ footer{
     font-weight: 100;
     font-size: 15px;
 }
+.footer2 ul li{
+    list-style: none;
+}
 .footer3{
     border: none;
     float: left;
