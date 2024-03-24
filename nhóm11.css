@@ -13,22 +13,6 @@ header{
 body{
     background-color: #9e99994b;
 }
-.anhtroi{
-    margin: 100px auto;
-    width: 65%;
-    
-}
-.anha{
-    max-width: 320px;
-    float: left;
-    border: 3px solid #fff;
-    border-radius: 10px;
-    margin-right: 50px;
-}
-.anhtroi h2{
-    font-size: 50px;
-    color: rgba(0, 0, 0, 0.509);
-}
 header nav ul li{
     list-style: none;
     float: right;
@@ -67,10 +51,32 @@ header button{
     color: #fff;
     cursor: pointer;
 }
+.anhtroi{
+    margin: 100px auto;
+    width: 65%;
+    
+}
+.anha{
+    max-width: 320px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.anhtroi h2{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.509);
+}
+.head1{
+    margin-left: 13%;
+    margin-top: 20%;
+    color: rgb(86, 51, 108);
+    font-size: 40px
+}
 .anh{
     margin-right: 5%;
     margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 3%;
 }
 article{
     float: left;
@@ -138,20 +144,41 @@ aside{
 }
 .d13 h1{
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: px;
     font-weight: 100;
 }
 .d14{
     width: 260px;
-    height: 500px;
+    height: 710px;
     border: 1px solid rgba(0, 0, 0, 0.304);
     background-color: #fff;
     margin-top: 30px;
+}
+.d14 ul h1{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.d14 ul li h2{
+    margin-top:px;
+    margin-left: 10px;
+    font-weight: 500;}
+.d14 ul li{
+    list-style: none;
+    font-size: 15px;
+    text-align: center
+}
+.d14 ul  hr{
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 15px;
 }
 .d14 a{
     text-decoration: none;
     color: black;
 }
+
+
 footer{
     background-color: black;
     height: 500px;
