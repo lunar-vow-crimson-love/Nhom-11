@@ -11,6 +11,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #9e99994b;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -60,11 +63,103 @@ article{
     float: left;
     width: 75%;
     border: none;
+    display: inline;
+}
+.div1{
+    border: 2px solid #fff;
+    width: 403px;
+    height: 615px;
+    margin:50px  60px;
+    background-color: black;
+}
+article div{
+    float: left;
+}
+article div img{
+    max-width: 400px;
+}
+.div1 h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+}
+.div2{
+    border: 1px solid;
+    width: 500px;
+    height: 615px;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 3%;
+}
+.div2 h1{
+    color: rgb(126, 206, 206);
+    text-align: center;
+}
+.div2 p{
+    margin-top: 5%;
+    color: rgb(73, 69, 69);
+    font-family: 'Courier New', Courier, monospace;
+}
+.san-pham-khac{
+    float: left;
+    width: 90%;
+    border:none;
+    margin-left: 110px;    
+}
+.san-pham-khac h1{
+    font-family: verdana;
+    text-align: center;
+    color: rgb(73, 69, 69);
+    margin-top: 2%;
+}
+.d5 ,.d6,.d7{
+width: 240px;
+    height: 330px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.hinh{
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.menu_anh:hover .thuengay{
+    display: block;
+}
+.thuengay{
+    text-align: center;
+    background-color: rgb(80, 92, 159);
+    padding: 6px ;
+    width: 230px;
+    border-radius: 5px ;
+    margin-left: 5px;
+    list-style: none;
+    display: none;
+}
+.d2b{
+    display: inline;
+    list-style: none;
+}
+.xem{
+    text-decoration: none;
+    color: #fff;
+}
+.giathue{
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
 }
 
 
+
+
 aside{
-    margin-top: 30px;
+    margin-top: 50px;
     float: right;
     width: 20%;
     margin-right: 3%;
@@ -181,7 +276,70 @@ footer{
     </head>
     <body>
         <article>
+            <div class="div1">
+                <img src="z5264714332166_44fe764e9e6d19f34c06b0db11f1ef2e.jpg" alt="">
+                <h1>Liên hệ chúng tôi qua SĐT<br>0123456789</h1>
+            </div>
+            <div class="div2">
+                <h1>Váy cưới trắng đính hoa</h1>
+                <p>
+                    Váy cưới trắng đính hoa là một trong những lựa chọn phổ biến và được ưa chuộng trong ngày cưới. Váy cưới trắng tượng trưng cho
+                     sự trong sáng, thuần khiết và tinh khôi của tình yêu đôi lứa. Khi kết hợp với hoa, váy cưới trở nên lãng mạn và quyến rũ hơn.
 
+                    Váy cưới trắng đính hoa được thiết kế theo nhiều kiểu dáng dáng xòe và dáng công chúa. Điều này giúp cô dâu phù hợp với vóc dáng và phong cách của mình.
+
+                    Với sự kết hợp tinh tế giữa váy cưới trắng và hoa, cô dâu sẽ trở nên lộng lẫy và quyến rũ trong ngày trọng đại của mình.
+
+                </p>
+
+                    <p>Giá: 350.000 - Hàng đẹp như hình<br></p>
+                    <p>Đặt hàng đơn giản chỉ cần soạn tin: Họ tên + địa chỉ + số điện thoại shop ship tận nơi </p> 
+                    <p>Size: Đan rút dây dựng gọng (tương đương size S M)</p>
+                    <p>Màu sắc: Trắng</p>
+                    <p>Chất liệu: Kim tuyến phối kim sa dệt</p>
+                    <p>Liên hệ: 0123456789 để đặt hàng</p>
+
+                </p>
+            </div>
+            <div class="san-pham-khac">
+                <h1> các sản phẩm khác của chúng tôi</h1>
+            <div class="div3">
+                <div class="d5">
+                    <ul class="d2b">
+                        <li class="menu_anh"> <img class="hinh" src="z5264719758123_d7fe560b137904919c192907dfce833a.jpg" width="230px" height="250px">
+                        <ul class="thuengay">
+                            <li> <a class="xem" href="hinh5.html">Thuê Ngay </a></li>
+                            </ul>
+                        </li>
+                         </ul>
+                <h1 class="giathue">Giá thuê: 500.000₫ </h1>
+                </div></div>
+    
+    
+                <div class="d6">
+                    <ul class="d2b">
+                        <li class="menu_anh"><img class="hinh" src="z5264724370134_23981074010c03e8c97ca2d4db5ce6f3.jpg" width="230px" height="250px">
+                        <ul class="thuengay">
+                            <li><a class="xem" href="hinh6.html">Thuê Ngay</a></li>
+                            </ul>
+                        </li>
+                         </ul>
+                <h1 class="giathue">Giá thuê: 200.000₫ </h1>
+                </div>
+    
+    
+                <div class="d7">
+                    <ul class="d2b">
+                        <li class="menu_anh"><img class="hinh" src="z5264732280073_fc7d60c95cfd8bafcbcb297112b3ee8c.jpg" width="230px" height="250px">
+    
+                        <ul class="thuengay">
+                            <li><a class="xem" href="hinh7.html">Thuê Ngay</a></li>
+                            </ul>
+                        </li>
+                         </ul>
+                <h1 class="giathue">Giá thuê: 600.000₫ </h1>
+                </div>
+            </div>
         </article>
 
 
