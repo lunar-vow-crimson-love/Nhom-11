@@ -43,13 +43,23 @@ i{
     height: 29px;
     border-bottom: solid red;
 }
-header button{
+.btn{
     border: 0;
     padding: 10px 30px;
     border-radius: 30px;
     background-color: rgb(210, 50, 50);
     color: #fff;
     cursor: pointer;
+}
+.btn1{
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn1:hover{
+    color: red;
 }
 .anhtroi{
     margin: 100px auto;
