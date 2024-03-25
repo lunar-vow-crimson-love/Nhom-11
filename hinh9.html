@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <head>
+        <title></title>
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9e99994b;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10% ;
+    background-color: black;
+}   
+header nav ul li{
+    list-style: none;
+    float: right;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+header nav ul li:hover{
+    color: red;
+    border-bottom: 2px solid greenyellow;
+}
+.search-text{
+    width: 450px;
+    height: 30px;
+    background-color: none;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.search-text input{
+    float: left;
+    width: 85%;
+    height: 30px;
+    border-left:1px;
+}
+i{
+    background-color: red;
+    width: 39px;
+    height: 29px;
+    border-bottom: solid red;
+}
+header button{
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(210, 50, 50);
+    color: #fff;
+    cursor: pointer;
+}
+article{
+    float: left;
+    width: 75%;
+    border: none;
+    display: inline;
+}
+.div1{
+    border: 2px solid #fff;
+    width: 403px;
+    height: 660px;
+    margin:50px  60px;
+    background-color: black;
+}
+article div{
+    float: left;
+}
+article div img{
+    max-width: 400px;
+}
+.div1 h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+}
+.div2{
+    border: 1px solid;
+    width: 500px;
+    height: 615px;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 3%;
+}
+.div2 h1{
+    color: rgb(126, 206, 206);
+    text-align: center;
+}
+.div2 p{
+    margin-top: 5%;
+    color: rgb(73, 69, 69);
+    font-family: 'Courier New', Courier, monospace;
+}
+.san-pham-khac{
+    float: left;
+    width: 90%;
+    border:none;
+    margin-left: 110px;    
+}
+.san-pham-khac h1{
+    font-family: verdana;
+    text-align: center;
+    color: rgb(73, 69, 69);
+    margin-top: 2%;
+}
+.d8 ,.d9,.d10{
+width: 240px;
+    height: 330px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.hinh{
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.menu_anh:hover .thuengay{
+    display: block;
+}
+.thuengay{
+    text-align: center;
+    background-color: rgb(80, 92, 159);
+    padding: 6px ;
+    width: 230px;
+    border-radius: 5px ;
+    margin-left: 5px;
+    list-style: none;
+    display: none;
+}
+.d2b{
+    display: inline;
+    list-style: none;
+}
+.xem{
+    text-decoration: none;
+    color: #fff;
+}
+.giathue{
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+aside{
+    margin-top: 50px;
+    float: right;
+    width: 20%;
+    margin-right: 3%;
+}
+.d13{
+    width: 260px;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.304);
+    text-align: center;
+    font-weight: 100;
+    background-color: #fff;
+}
+.d13 h1{
+    margin-top: 20px;
+    margin-bottom: px;
+    font-weight: 100;
+}
+.d14{
+    width: 260px;
+    height: 710px;
+    border: 1px solid rgba(0, 0, 0, 0.304);
+    background-color: #fff;
+    margin-top: 30px;
+}
+.d14 ul h1{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.d14 ul li h2{
+    margin-top:px;
+    margin-left: 10px;
+    font-weight: 500;}
+.d14 ul li{
+    list-style: none;
+    font-size: 15px;
+    text-align: center
+}
+.d14 ul  hr{
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.d14 a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    height: 500px;
+    color: white;
+    clear: both;
+}
+.footer1{
+    border: none;
+    width: 20%;
+    height: 300px;
+    float: left;
+    margin-left: 10%;
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+}
+.footer1 ul li{
+    margin-top: 50px;
+}
+.footer2{
+    border: none;
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 50px;
+    font-weight: 100;
+    font-size: 15px;
+}
+.footer2 ul li{
+    list-style: none;
+}
+.footer3{
+    border: none;
+    float: left;
+    width: 20%;
+    font-weight: 100;
+    font-size: 10px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.footer3 ul li{
+    margin-top: 60px;
+}
+        </style>
+
+
+    <header>
+        <nav> 
+            <ul class="menu">
+                <a href="nhóm11.html"><li>Trang chủ</li></a>
+                <a href="gioithieu.html"><li>Giới thiệu</li></a>
+                <li>Sản phẩm</li>
+                <li>Dich vụ</li>
+                <li>Liên hệ</li>
+            </ul>
+        </nav> 
+         <div class="search-text">
+            <input type="search" name="Tìm kiếm" placeholder="bạn cần tìm gì" >
+            <a href="#">
+                 <i class="fa fa-search"></i>
+            </a>
+           
+         </div>
+         <a href="login.html"><button class="btn">Đăng nhập</button></a>
+        </header>
+    </head>
+    <body>
+        <article>
+            <div class="div1">
+                <img src="z5264788651242_9ea002c248f40313316b054adfb0dd90.jpg" alt="">
+                <h1>Liên hệ chúng tôi qua SĐT<br>0123456789</h1>
+            </div>
+            <div class="div2">
+                <h1>váy cưới đính ngọc tròn</h1>
+                <p>
+                    Váy cưới đính ngọc tròn đơn giản nhưng vẫn đủ thu hút ánh nhìn. Một chiếc váy cưới đẹp không nhất
+                     thiết phải cầu kỳ mà phải khoe được nét đẹp của cô dâu. Nhờ chất liệu vải phi nhật có phần cứng
+                      cáp, bóng nên chiếc váy được định hình tốt với những đường cắt, may tỉ mỉ đầy sang trọng.
+                      Chiếc váy cưới ôm lấy phần eo trong khi chân váy xòe, có độ bồng bềnh vừa mang nét dịu dàng,
+                       thướt tha vừa tôn lên vóc dáng của nàng. Thiết kế trễ vai được cách điệu cùng với những hạt 
+                       ngọc tròn tại phần trung tâm, trông như một chiếc nơ khoe trọn bờ vai của cô dâu tạo sự quyến
+                        rũ pha lẫn sự duyên dáng. 
+                </p>
+
+                    <p>Giá: 400.000 - Hàng đẹp như hình<br></p>
+                    <p>Đặt hàng đơn giản chỉ cần soạn tin: Họ tên + địa chỉ + số điện thoại shop ship tận nơi </p> 
+                    <p>Size: Đan rút dây dựng gọng (tương đương size S M)</p>
+                    <p>Màu sắc: Trắng</p>
+                    <p>Chất liệu: Kim tuyến phối kim sa dệt</p>
+                    <p>Liên hệ: 0123456789 để đặt hàng</p>
+
+                </p>
+            </div>
+            <div class="san-pham-khac">
+                <h1> các sản phẩm khác của chúng tôi</h1>
+            <div class="div3">
+                <div class="d8">
+                    <ul class="d2b">
+                        <li class="menu_anh"><img class="hinh" src="z5264746306870_be5e87ae0098e7634547d8ed6cf0d49d.jpg" width="230px" height="250px">
+    
+                        <ul class="thuengay">
+                            <li><a class="xem" href="hinh8.html">Thuê Ngay</a></li>
+                            </ul>
+                        </li>
+                         </ul>
+                <h1 class="giathue">Giá thuê: 250.000₫ </h1>
+                </div></div>
+    
+    
+                <div class="d9">
+                    <ul class="d2b">
+                        <li class="menu_anh"><img class="hinh" src="z5264788651242_9ea002c248f40313316b054adfb0dd90.jpg" width="230px" height="250px">
+                        <ul class="thuengay">
+                            <li><a class="xem" href="hinh9.html">Thuê Ngayy</a></li>
+                            </ul>
+                        </li>
+                         </ul>
+                <h1 class="giathue">Giá thuê: 400.000₫ </h1>
+                </div>
+    
+    
+               
+                <div class="d10">
+                    <ul class="d2b">
+                        <li class="menu_anh"><img class="hinh" src="z5264789973470_4252fa713b2a78c17800c88e51717cc3.jpg" width="230px" height="250px">
+                        <ul class="thuengay">
+                            <li><a class="xem" href="hinh10.html">Thuê Ngay</a></li>
+                            </ul>
+                        </li>
+                         </ul>
+                <h1 class="giathue">Giá thuê: 400.000₫ </h1>
+                </div>
+            </div>
+        </article>
+
+
+        <aside>
+            <div class="d13">
+                <h1>Váy cưới BDK <hr></h1>
+                <img src="cuahang.jpg" width="240px" height="240px">
+            </div>
+            <div class="d14"> 
+                <ul><h1>Các sản phẩm <hr></h1> 
+               <li><a href="hinh1.html"><h2>váy cưới phối bèo trắng kim sa <hr></h2></a></li> 
+               <li><a href="hinh2.html"><h2>váy cưới trắng đính hoa<hr></h2></a></li>
+               <li><a href="hinh3.html"><h2>váy cưới phi nhật trễ vai<hr></h2></a></li>
+               <li><a href="hinh4.html"><h2>váy cưới trễ vai nơ trơn trắng<hr></h2></a></li>
+               <li><a href="hinh5.html"><h2>váy cưới trắng ô đính lá tim<hr></h2></a></li>
+               <li><a href="hinh6.html"><h2>váy cưới đai cườm<hr></h2></a></li>
+               <li><a href="hinh7.html"><h2>váy cưới trễ vai cổ lọ trắng<hr></h2></a></li>
+               <li><a href="hinh8.html"><h2>váy cưới tay ren trắng<hr></h2></a></li>
+               <li><a href="hinh9.html"><h2>váy cưới đính ngọc tròn<hr></h2></a></li>
+               <li><a href="hinh10.html"><h2>váy cưới trễ vai trắng  kim sa<hr></h2></a></li>
+               <li><a href="hinh11.html"><h2>váy cưới trơn đai cườm<hr></h2></a></li>
+               <li><a href="hinh12.html"><h2>váy cưới đai nhọn trắng</h2></a></li>
+            </ul>
+            </div>
+        </aside> 
+        </div> 
+
+
+    <footer class="footer0">
+        <div class="footer1">
+        <ul>
+        <li><h1>Áo cưới BĐK<br></h1></li>
+        <li><h2>Địa chỉ: 18 Quan Trung,Hà Đông,Hà Nội<br>
+            Chuyên cho thuê các loại áo cưới đẹp và hot nhất hiện nay<br>
+            Giờ mở cửa: Sáng (8h-12h).Chiều (13h30-19h)</h2></li>
+        </ul>
+        </div>
+        <div class="footer2">
+            <ul>
+                <li><h1>Bản đồ</h1></li>
+                <li><img src="bando.jpg" width="350px" height="330px"></li>
+            </ul>
+        </div>
+        <div class="footer3">
+            <ul>
+                <li><h1>HOTLINE<br>0123456789</h1></li>
+                <li><h1>EMAIL<br>info@bdk.com</h1></li>
+            </ul>
+        </div>
+        
+       </footer>
+      
+    </body>
+</html>
